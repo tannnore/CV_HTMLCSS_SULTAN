@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Kertas A4 */
+.paper {
+    width: 210mm;
+    min-height: 297mm;
+    background: white;
+    padding: 25mm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+/* Profil */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto; /* tengah + jarak ke bawah */
+}
+
+.info {
+  font-size: 12px; /* atau 11px kalau masih kepanjangan */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Judul dan header */
+h1 {
+    font-size: 20pt;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14pt;
+    margin-top: 25px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 3px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.sub-section {
+    margin-top: 10px;
+}
+
+.job-title {
+    font-style: italic;
+    font-size: 12pt;
+    color: #666;
+}
+
+/* List dan teks isi */
+ul {
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 11pt;
+}
+
+/* Tabel Skill */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px 10px 4px 0;
+    font-size: 11pt;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+hr {
+    margin: 20px 0;
+}
